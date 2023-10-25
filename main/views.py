@@ -5,6 +5,12 @@ from main.models import User
 
 
 
+print("salom")
+print("salom")
+print("salom")
+print("salom")
+print("salom")
+
 def index_view(request):
     active_category = Category.objects.get(is_active=True)
     context = {
